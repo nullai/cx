@@ -147,6 +147,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cx.cpp" />
+    <ClCompile Include="cx_buffer.c" />
+    <ClCompile Include="cx_error.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cx_buffer.h" />
+    <ClInclude Include="cx_error.h" />
+    <ClInclude Include="cx_position.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

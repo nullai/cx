@@ -18,5 +18,22 @@
     <ClCompile Include="cx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cx_buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cx_error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cx_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_position.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
