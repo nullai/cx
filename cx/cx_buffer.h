@@ -1,11 +1,21 @@
 #pragma once
-
+#include "cx_type.h"
+#include "cx_file.h"
 typedef struct cx_buffer cx_buffer;
 
-cx_buffer* cx_buffer_create(int size);
+struct cx_buffer
+{
+	const byte* cur;
+	const byte* line_base;
+	const byte* next_line;
 
-void cx_buffer_destroy(cx_buffer* buffer);
+	const byte* buf;
+	const byte* rlimit;
+	const byte* to_free;
 
-const char* cx_buffer_dupstr(cx_buffer* buffer, const char* text);
-const char* cx_buffer_dupstr_len(cx_buffer* buffer, const char* text, int size);
-void* cx_buffer_alloc(cx_buffer* buffer, int size);
+	cx_buffer* prev;
+	cx_file* file;
+
+	bool need_line;
+};
+

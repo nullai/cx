@@ -147,13 +147,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cx.cpp" />
-    <ClCompile Include="cx_buffer.c" />
+    <ClCompile Include="cx_pool.c" />
     <ClCompile Include="cx_error.c" />
+    <ClCompile Include="cx_file.cpp" />
+    <ClCompile Include="cx_lex.cpp" />
+    <ClCompile Include="cx_reader.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cx_buffer.h" />
+    <ClInclude Include="cx_context.h" />
+    <ClInclude Include="cx_pool.h" />
     <ClInclude Include="cx_error.h" />
-    <ClInclude Include="cx_position.h" />
+    <ClInclude Include="cx_file.h" />
+    <ClInclude Include="cx_lex.h" />
+    <ClInclude Include="cx_location.h" />
+    <ClInclude Include="cx_reader.h" />
+    <ClInclude Include="cx_symtab.h" />
+    <ClInclude Include="cx_token.h" />
+    <ClInclude Include="cx_type.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

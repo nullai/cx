@@ -18,21 +18,54 @@
     <ClCompile Include="cx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cx_buffer.c">
+    <ClCompile Include="cx_error.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cx_error.c">
+    <ClCompile Include="cx_lex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cx_reader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cx_file.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cx_pool.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cx_buffer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="cx_error.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="cx_position.h">
+    <ClInclude Include="cx_lex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_token.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_symtab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_location.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
