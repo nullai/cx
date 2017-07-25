@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+cx/.vs/cx/v14/.suo
+cx.VC.db
+cx.VC.VC.opendb
